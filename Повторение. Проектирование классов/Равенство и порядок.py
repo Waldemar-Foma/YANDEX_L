@@ -31,3 +31,9 @@ class Point:
 
     def __ge__(self, other):
         return not self < other
+
+    def get_x(self):
+        return self.x
+
+    def get_y(self):
+        return self.y
